@@ -10,7 +10,7 @@ namespace ETicaret.BLL
    public  class PersonelManager
     {
         Repository<Personeller> repPers = new Repository<Personeller>();
-
+//-----------------------------------------Aslı-----------------------------
         public Personeller Giris(string kullanici_Adi,string sifre)
         {
             //var giris1 = repPers.ListeFiltre(k => (k.KAdi == kullanici_Adi || k.EMail == kullanici_Adi) && k.KSifre == sifre);
